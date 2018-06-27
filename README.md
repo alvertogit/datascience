@@ -15,9 +15,13 @@ The code has been tested using:
 
 Virtual environment can be generated with **datascience36.yaml**, **requirements.txt** files found in main folder.
 
+Command to configure virtual environment with **conda**:
+
 ```bash
 ~/datascience$ conda env create -f datascience36.yaml
 ```
+
+Commands to configure virtual environment with **virtualenv**:
 
 ```bash
 ~/datascience$ virtualenv datascience36
