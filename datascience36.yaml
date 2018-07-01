@@ -88,7 +88,7 @@ dependencies:
     - mxnet==1.2.0
     - numpy==1.14.5
     - packaging==17.1
-    - pandas==0.22.0
+    - pandas==0.23.1
     - pandas-datareader==0.6.0
     - pbr==4.0.4
     - pluggy==0.6.0
