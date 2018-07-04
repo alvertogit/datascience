@@ -1,6 +1,6 @@
 # DATA SCIENCE
 
-This repository stores Jupyter notebooks to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [Matplotlib], [NumPy], [Pandas], [Seaborn].
+This repository stores Jupyter notebooks to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [Matplotlib], [NumPy], [Pandas], [Folium], [Seaborn].
 
 ## DEPENDENCIES
 The code has been tested using:
@@ -11,6 +11,7 @@ The code has been tested using:
 * [Matplotlib] (2.2.0)
 * [NumPy] (1.14.5)
 * [Pandas] (0.23.1)
+* [Folium] (0.5.0)
 * [Seaborn] (0.8.1)
 * [Conda] (4.5.4) virtual environment (<env_name>=datascience36) included in [Python] Data Science Platform [Anaconda]
 
@@ -40,6 +41,7 @@ Commands to configure virtual environment with [virtualenv]:
 [Matplotlib]: https://matplotlib.org/
 [NumPy]: http://www.numpy.org/
 [Pandas]: https://pandas.pydata.org/
+[Folium]: https://github.com/python-visualization/folium
 [Seaborn]: http://seaborn.pydata.org/
 [Conda]: https://conda.io/docs/index.html
 [Anaconda]: https://www.anaconda.com/
