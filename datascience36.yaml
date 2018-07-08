@@ -62,6 +62,7 @@ dependencies:
     - cryptography==2.2.2
     - cycler==0.10.0
     - cython==0.28.3
+    - deap==1.2.2
     - docker==3.3.0
     - docker-pycreds==0.3.0
     - docutils==0.14
@@ -73,6 +74,7 @@ dependencies:
     - gmaps==0.8.0
     - graphviz==0.8.3
     - grpcio==1.10.0
+    - h5py==2.8.0
     - html5lib==0.9999999
     - idna==2.6
     - imagesize==1.0.0
@@ -82,12 +84,14 @@ dependencies:
     - jsondiff==1.1.1
     - jsonpickle==0.9.6
     - jsonschema==2.6.0
-    - keras==2.1.5
+    - keras==2.2.0
+    - keras-applications==1.0.2
+    - keras-preprocessing==1.0.1
     - kiwisolver==1.0.1
     - lxml==4.1.1
     - markdown==2.6.11
     - markupsafe==1.0
-    - matplotlib==2.2.0
+    - matplotlib==2.2.2
     - mccabe==0.6.1
     - mistune==0.8.3
     - mock==2.0.0
@@ -129,12 +133,16 @@ dependencies:
     - sphinx==1.7.5
     - sphinx-rtd-theme==0.4.0
     - sphinxcontrib-websupport==1.1.0
-    - tensorboard==1.6.0
-    - tensorflow==1.6.0
+    - stopit==1.1.2
+    - tensorboard==1.8.0
+    - tensorflow==1.8.0
     - termcolor==1.1.0
     - terminado==0.8.1
     - testpath==0.3.1
     - theano==1.0.1
+    - tpot==0.9.3
+    - tqdm==4.23.4
+    - update-checker==0.16
     - urllib3==1.22
     - websocket-client==0.48.0
     - werkzeug==0.14.1
