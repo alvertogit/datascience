@@ -7,40 +7,40 @@ dependencies:
   - certifi=2018.4.16=py36_0
   - decorator=4.3.0=py36_0
   - ipykernel=4.8.2=py36_0
-  - ipython=6.4.0=py36_0
-  - ipython_genutils=0.2.0=py36hb52b0d5_0
-  - jedi=0.12.0=py36_1
+  - ipython=6.5.0=py36_0
+  - ipython_genutils=0.2.0=py36_0
+  - jedi=0.12.1=py36_0
   - jupyter_client=5.2.3=py36_0
-  - jupyter_core=4.4.0=py36h7c827e3_0
+  - jupyter_core=4.4.0=py36_0
   - libedit=3.1.20170329=h6b74fdf_2
   - libffi=3.2.1=hd88cf55_4
   - libgcc-ng=7.2.0=hdf63c60_3
   - libsodium=1.0.16=h1bed415_0
   - libstdcxx-ng=7.2.0=hdf63c60_3
   - ncurses=6.1=hf484d3e_0
-  - openssl=1.0.2o=h20670df_0
-  - parso=0.2.1=py36_0
+  - openssl=1.0.2o=h14c3975_1
+  - parso=0.3.1=py36_0
   - pexpect=4.6.0=py36_0
-  - pickleshare=0.7.4=py36h63277f8_0
+  - pickleshare=0.7.4=py36_0
   - pip=10.0.1=py36_0
-  - prompt_toolkit=1.0.15=py36h17d85b1_0
-  - ptyprocess=0.5.2=py36h69acd42_0
-  - pygments=2.2.0=py36h0d3125c_0
-  - python=3.6.5=hc3d631a_2
+  - prompt_toolkit=1.0.15=py36_0
+  - ptyprocess=0.6.0=py36_0
+  - pygments=2.2.0=py36_0
+  - python=3.6.6=hc3d631a_0
   - python-dateutil=2.7.3=py36_0
-  - pyzmq=17.0.0=py36h14c3975_0
+  - pyzmq=17.1.0=py36h14c3975_0
   - readline=7.0=ha6073c6_4
-  - setuptools=39.2.0=py36_0
+  - setuptools=40.0.0=py36_0
   - simplegeneric=0.8.1=py36_2
-  - six=1.11.0=py36h372c433_1
+  - six=1.11.0=py36_1
   - sqlite=3.24.0=h84994c4_0
   - tk=8.6.7=hc745277_3
-  - tornado=5.0.2=py36_0
-  - traitlets=4.3.2=py36h674d592_0
-  - wcwidth=0.1.7=py36hdf4376a_0
+  - tornado=5.1=py36h14c3975_0
+  - traitlets=4.3.2=py36_0
+  - wcwidth=0.1.7=py36_0
   - wheel=0.31.1=py36_0
   - xz=5.2.4=h14c3975_4
-  - zeromq=4.2.5=h439df22_0
+  - zeromq=4.2.5=hf484d3e_0
   - zlib=1.2.11=ha838bed_2
   - pip:
     - absl-py==0.1.11
@@ -114,6 +114,7 @@ dependencies:
     - pyaml==17.12.1
     - pycodestyle==2.3.1
     - pycparser==2.18
+    - pydot==1.2.4
     - pyflakes==1.6.0
     - pyparsing==2.2.0
     - pytest==3.6.1

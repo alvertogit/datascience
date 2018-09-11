@@ -5,7 +5,7 @@ This repository stores Jupyter notebooks to demonstrate skills in [Data Science]
 ## DEPENDENCIES
 The code has been tested using:
 
-* [Python] (3.6.5): an interpreted high-level programming language for general-purpose programming.
+* [Python] (3.6.6): an interpreted high-level programming language for general-purpose programming.
 * [Keras] (2.2.0): a high-level neural networks API, written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
 * [Tensorflow] (1.8.0): an open source software library for high performance numerical computation using data flow graphs.
 * [Matplotlib] (2.2.2): a plotting library for [Python] and its numerical mathematics extension [NumPy].
@@ -35,6 +35,11 @@ Commands to configure virtual environment with [virtualenv]:
 (datascience36)~/datascience$ pip install -r requirements.txt
 ```
 
+It might be also necessary to install locally [Graphviz] for rendering graph images.
+```bash
+$ sudo apt-get install graphviz
+```
+
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [Python]: https://www.python.org/
@@ -51,3 +56,4 @@ Commands to configure virtual environment with [virtualenv]:
 [Conda]: https://conda.io/docs/index.html
 [Anaconda]: https://www.anaconda.com/
 [virtualenv]: https://virtualenv.pypa.io/en/stable/
+[Graphviz]: https://www.graphviz.org/
