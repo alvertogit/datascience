@@ -35,10 +35,15 @@ Commands to configure virtual environment with [virtualenv]:
 (datascience36)~/datascience$ pip install -r requirements.txt
 ```
 
-It might be also necessary to install locally [Graphviz] for rendering graph images.
+It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
+
 ```bash
-$ sudo apt-get install graphviz
+~/datascience$ sudo apt-get install graphviz
 ```
+
+Graph image example of a decision tree is shown below.
+
+![Graph image example of a decision tree](tree_top3.png)
 
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
