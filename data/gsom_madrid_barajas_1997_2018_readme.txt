@@ -15,7 +15,8 @@ REQUESTED DATA
 Stations	MADRID BARAJAS, SP (GHCND:SPE00120278)
 Custom Flag(s)	Station Name, Geographic Location, Include Data Flags
 Units	Metric
-Data Types	EMXP - Extreme maximum precipitation for the period.
+Data Types	
+EMXP - Extreme maximum precipitation for the period.
 EMXT - Extreme maximum temperature for the period.
 PRCP - Precipitation
 DX90 - Number days with maximum temperature > 90 F (32.2C)
