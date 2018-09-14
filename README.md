@@ -43,7 +43,7 @@ It might be also necessary to install locally [Graphviz] for rendering graph ima
 
 Graph image example of a decision tree is shown below.
 
-![Graph image example of a decision tree](tree_top3.png)
+![Graph image example of a decision tree](images/tree_top3.png)
 
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
