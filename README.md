@@ -1,24 +1,27 @@
 # DATA SCIENCE
 
-This repository stores Jupyter notebooks to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [scikit-learn], [Matplotlib], [NumPy], [Pandas], [XGBoost], [Folium], [Seaborn].
+This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [scikit-learn], [Matplotlib], [NumPy], [Pandas], [XGBoost], [Folium], [Seaborn] among others.
 
 ## DEPENDENCIES
+
 The code has been tested using:
 
 * [Python] (3.6.6): an interpreted high-level programming language for general-purpose programming.
-* [Keras] (2.2.3): a high-level neural networks API, written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
-* [Tensorflow] (1.11.0): an open source software library for high performance numerical computation using data flow graphs.
+* [Keras] (2.2.4): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
+* [Tensorflow] (1.11.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
 * [Matplotlib] (2.2.3): a plotting library for [Python] and its numerical mathematics extension [NumPy].
-* [NumPy] (1.14.5): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* [NumPy] (1.15.2): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * [Pandas] (0.23.4):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
-* [scikit-learn] (0.20.0): a machine learning library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN.
-* [TPOT] (0.9.5): a [Python] Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
-* [XGBoost] (0.8.0): an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable.
-* [Folium] (0.6.0): an open source library to visualize data that has been manipulated in Python on an interactive [Leaflet.js] map.
+* [scikit-learn] (0.20.0): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
+* [TPOT] (0.9.5): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
+* [XGBoost] (0.8.0): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
+* [Folium] (0.6.0): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 * [Seaborn] (0.9.0): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
+* [imbalanced-learn] (0.4.1): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
+* [joblib] (0.12.5): a set of tools to provide lightweight pipelining in [Python].
 * [Conda] (4.5.11): a virtual environment included in [Python] Data Science Platform [Anaconda].
 
-Virtual environment (<env_name>=datascience36) can be generated with **datascience36.yaml**, **requirements.txt** files found in main folder.
+Virtual environment (<env_name>=**datascience36**) can be generated with **datascience36.yaml**, **requirements.txt** files found in main folder.
 
 Command to configure virtual environment with [Conda]:
 
@@ -49,6 +52,13 @@ Graph image example of a decision tree is shown below.
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [Python]: https://www.python.org/
+[Machine Learning]: https://en.wikipedia.org/wiki/Machine_learning
+[Deep Learning]: https://en.wikipedia.org/wiki/Deep_learning
+[Random Forest]: https://en.wikipedia.org/wiki/Random_forest
+[Gradient Boosting]: https://en.wikipedia.org/wiki/Gradient_boosting
+[API]: https://en.wikipedia.org/wiki/Application_programming_interface
+[Docker]: https://www.docker.com/
+[docker-compose]: https://github.com/docker/compose
 [Keras]: https://keras.io/
 [Tensorflow]: https://www.tensorflow.org/
 [Matplotlib]: https://matplotlib.org/
@@ -60,6 +70,11 @@ Graph image example of a decision tree is shown below.
 [Folium]: https://github.com/python-visualization/folium
 [Leaflet.js]: https://leafletjs.com/
 [Seaborn]: http://seaborn.pydata.org/
+[imbalanced-learn]: https://github.com/scikit-learn-contrib/imbalanced-learn
+[SMOTE (Synthetic Minority Over-sampling Technique)]: https://jair.org/index.php/jair/article/view/10302
+[joblib]: https://pypi.org/project/joblib/
+[Jupyter Notebook]: http://jupyter.org/
+[Jupyter Notebooks]: http://jupyter.org/
 [Conda]: https://conda.io/docs/index.html
 [Anaconda]: https://www.anaconda.com/
 [virtualenv]: https://virtualenv.pypa.io/en/stable/
