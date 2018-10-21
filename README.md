@@ -10,7 +10,7 @@ The code has been tested using:
 * [Keras] (2.2.4): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
 * [Tensorflow] (1.11.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
 * [Matplotlib] (2.2.3): a plotting library for [Python] and its numerical mathematics extension [NumPy].
-* [NumPy] (1.15.2): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* [NumPy] (1.14.5): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * [Pandas] (0.23.4):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (0.20.0): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 * [TPOT] (0.9.5): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
