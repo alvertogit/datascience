@@ -1,6 +1,6 @@
 # DATA SCIENCE
 
-This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [scikit-learn], [Matplotlib], [NumPy], [Pandas], [XGBoost], [Folium], [Seaborn] among others.
+This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Science], [Artificial Intelligence], classification and regression problems with [Python], [Keras], [scikit-learn], [Matplotlib], [NumPy], [Pandas], [TPOT], [XGBoost], [Folium], [Seaborn] among others.
 
 ## DEPENDENCIES
 
@@ -37,6 +37,12 @@ Commands to configure virtual environment with [virtualenv]:
 ~/datascience$ virtualenv datascience36
 ~/datascience$ source datascience36/bin/activate
 (datascience36)~/datascience$ pip install -r requirements.txt
+```
+
+It could be required to be able to use libraries dependent on [Python] widgets to execute the command:
+
+```bash
+~$ jupyter nbextension enable --py --sys-prefix widgetsnbextension
 ```
 
 It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
