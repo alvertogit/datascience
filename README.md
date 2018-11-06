@@ -6,19 +6,20 @@ This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Scienc
 
 The code has been tested using:
 
-* [Python] (3.6.6): an interpreted high-level programming language for general-purpose programming.
+* [Python] (3.6.7): an interpreted high-level programming language for general-purpose programming.
 * [Keras] (2.2.4): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
-* [Tensorflow] (1.11.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
+* [Tensorflow] (1.12.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
 * [Matplotlib] (2.2.3): a plotting library for [Python] and its numerical mathematics extension [NumPy].
-* [NumPy] (1.14.5): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* [NumPy] (1.14.6): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * [Pandas] (0.23.4):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (0.20.0): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 * [TPOT] (0.9.5): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
-* [XGBoost] (0.8.0): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
+* [XGBoost] (0.81): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 * [Folium] (0.6.0): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 * [Seaborn] (0.9.0): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
-* [imbalanced-learn] (0.4.1): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
+* [imbalanced-learn] (0.4.2): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
 * [joblib] (0.12.5): a set of tools to provide lightweight pipelining in [Python].
+* [findspark] (1.3.0): a package to make [Spark] Context available in [Jupyter Notebook].
 * [Conda] (4.5.11): a virtual environment included in [Python] Data Science Platform [Anaconda].
 
 Virtual environment (<env_name>=**datascience36**) can be generated with **datascience36.yaml**, **requirements.txt** files found in main folder.
@@ -81,6 +82,8 @@ Graph image example of a decision tree is shown below.
 [joblib]: https://pypi.org/project/joblib/
 [Jupyter Notebook]: http://jupyter.org/
 [Jupyter Notebooks]: http://jupyter.org/
+[findspark]: https://github.com/minrk/findspark
+[Spark]: https://spark.apache.org/
 [Conda]: https://conda.io/docs/index.html
 [Anaconda]: https://www.anaconda.com/
 [virtualenv]: https://virtualenv.pypa.io/en/stable/
