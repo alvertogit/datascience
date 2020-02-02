@@ -6,38 +6,60 @@ This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Scienc
 
 The code has been tested using:
 
-* [Python] (3.7.5): an interpreted high-level programming language for general-purpose programming.
+* [Python] (3.7.6): an interpreted high-level programming language for general-purpose programming.
 * [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
-* [Tensorflow] (2.0.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
-* [Matplotlib] (3.1.1): a plotting library for [Python] and its numerical mathematics extension [NumPy].
-* [NumPy] (1.17.3): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-* [Pandas] (0.25.3):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
-* [scikit-learn] (0.21.3): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
+* [Tensorflow] (2.1.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
+* [Matplotlib] (3.1.2): a plotting library for [Python] and its numerical mathematics extension [NumPy].
+* [NumPy] (1.18.1): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* [Pandas] (1.0.0):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
+* [scikit-learn] (0.22.1): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 * [scikit-image] (0.16.2): a collection of algorithms for image processing with [Python].
-* [TPOT] (0.10.2): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
+* [TPOT] (0.11.1): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
 * [XGBoost] (0.90): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
-* [Folium] (0.10.0): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
-* [ipyleaflet] (0.11.4): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in the [Jupyter notebook].
-* [Seaborn] (0.9.0): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
-* [imbalanced-learn] (0.5.0): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
-* [joblib] (0.14.0): a set of tools to provide lightweight pipelining in [Python].
+* [Folium] (0.10.1): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
+* [ipyleaflet] (0.12.2): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in the [Jupyter Notebook].
+* [Seaborn] (0.10.0): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
+* [imbalanced-learn] (0.6.1): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
+* [joblib] (0.14.1): a set of tools to provide lightweight pipelining in [Python].
 * [findspark] (1.3.0): a package to make [Spark] Context available in [Jupyter Notebook].
-* [Conda] (4.7.12): a virtual environment included in [Python] Data Science Platform [Anaconda].
 
-Virtual environment (<env_name>=**datascience37**) can be generated with **datascience37.yaml**, **requirements.txt** files found in main folder.
+Virtual environment (<env_name>=**datascience37**) can be generated with  **requirements.txt** file found in main folder.
 
-Command to configure virtual environment with [Conda]:
+Command to configure virtual environment with [venv]:
 
 ```bash
-~/datascience$ conda env create -f datascience37.yaml
-~/datascience$ conda activate datascience37
-(datascience37)~/datascience$
+~/datascience$ python -m venv datascience37
+~/datascience$ source datascience37/bin/activate
+(datascience37)~/datascience$ pip install pip==20.0.2
+(datascience37)~/datascience$ pip install setuptools==45.1.0
+(datascience37)~/datascience$ pip install -r requirements.txt
 ```
 
-It could be required to be able to use libraries dependent on [Python] widgets to execute the command:
+Command to configure virtual environment with [virtualenv]:
 
 ```bash
-~$ jupyter nbextension enable --py --sys-prefix widgetsnbextension
+~/datascience$ ~/datascience$ virtualenv datascience37
+~/datascience$ source datascience37/bin/activate
+(datascience37)~/datascience$ pip install pip==20.0.2
+(datascience37)~/datascience$ pip install setuptools==45.1.0
+(datascience37)~/datascience$ pip install -r requirements.txt
+```
+
+### HOW TO RUN NOTEBOOKS
+
+A good way to play with the [Jupyter Notebooks] is through [Jupyter Lab]. To run any of them use the command shown below:
+
+```bash
+(datascience37)~/datascience$ jupyter lab <notebook_name>.ipynb
+```
+
+It could be required to be able to use libraries dependent on [Python] widgets in [Jupyter Lab] to execute the commands:
+
+```bash
+~$ sudo apt install npm
+~$ sudo apt install nodejs
+(datascience37)~$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
+(datascience37)~$ jupyter labextension install jupyter-leaflet
 ```
 
 It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
@@ -77,11 +99,11 @@ Graph image example of a decision tree is shown below.
 [SMOTE (Synthetic Minority Over-sampling Technique)]: https://jair.org/index.php/jair/article/view/10302
 [joblib]: https://pypi.org/project/joblib/
 [Jupyter]: http://jupyter.org/
+[Jupyter Lab]: http://jupyter.org/
 [Jupyter Notebook]: http://jupyter.org/
 [Jupyter Notebooks]: http://jupyter.org/
 [findspark]: https://github.com/minrk/findspark
 [Spark]: https://spark.apache.org/
-[Conda]: https://conda.io/docs/index.html
-[Anaconda]: https://www.anaconda.com/
+[venv]: https://docs.python.org/3/library/venv.html
 [virtualenv]: https://virtualenv.pypa.io/en/stable/
 [Graphviz]: https://www.graphviz.org/
