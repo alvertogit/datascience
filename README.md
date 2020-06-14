@@ -73,6 +73,11 @@ Graph image example of a decision tree is shown below.
 
 ![Graph image example of a decision tree](images/tree_top3.png)
 
+## CREDITS
+
+author: alvertogit
+copyright: 2018-2020
+
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [Python]: https://www.python.org/
