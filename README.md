@@ -7,10 +7,10 @@ This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Scienc
 The code has been tested using:
 
 * [Python] (3.7.9): an interpreted high-level programming language for general-purpose programming.
-* [Jupyter Lab] (2.2.7): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
+* [Jupyter Lab] (2.2.8): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
 * [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
-* [TensorFlow] (2.3.0): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
-* [Matplotlib] (3.3.1): a plotting library for [Python] and its numerical mathematics extension [NumPy].
+* [TensorFlow] (2.3.1): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
+* [Matplotlib] (3.3.2): a plotting library for [Python] and its numerical mathematics extension [NumPy].
 * [NumPy] (1.19.2): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * [Pandas] (1.1.2):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (0.23.2): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
