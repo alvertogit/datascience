@@ -6,44 +6,44 @@ This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Scienc
 
 The code has been tested using:
 
-* [Python] (3.7.9): an interpreted high-level programming language for general-purpose programming.
-* [Jupyter Lab] (2.2.8): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
+* [Python] (3.8): an interpreted high-level programming language for general-purpose programming.
+* [Jupyter Lab] (2.2.9): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
 * [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
 * [TensorFlow] (2.3.1): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
-* [Matplotlib] (3.3.2): a plotting library for [Python] and its numerical mathematics extension [NumPy].
-* [NumPy] (1.19.2): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-* [Pandas] (1.1.2):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
+* [Matplotlib] (3.3.3): a plotting library for [Python] and its numerical mathematics extension [NumPy].
+* [NumPy] (1.19.4): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* [Pandas] (1.1.5):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (0.23.2): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 * [scikit-image] (0.17.2): a collection of algorithms for image processing with [Python].
-* [TPOT] (0.11.5): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
-* [XGBoost] (1.2.0): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
+* [TPOT] (0.11.6): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
+* [XGBoost] (1.2.1): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 * [Folium] (0.11.0): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 * [ipyleaflet] (0.13.3): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in [Jupyter Notebook].
 * [Seaborn] (0.11.0): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
 * [imbalanced-learn] (0.7.0): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
-* [joblib] (0.16.0): a set of tools to provide lightweight pipelining in [Python].
+* [joblib] (0.17.0): a set of tools to provide lightweight pipelining in [Python].
 * [findspark] (1.4.2): a package to make [Spark] Context available in [Jupyter Notebook].
 
-Virtual environment (<env_name>=**datascience37**) can be generated with  **requirements.txt** file found in main folder.
+Virtual environment (<env_name>=**datascience38**) can be generated with  **requirements.txt** file found in main folder.
 
 Command to configure virtual environment with [venv]:
 
 ```bash
-~/datascience$ python -m venv datascience37
-~/datascience$ source datascience37/bin/activate
-(datascience37)~/datascience$ pip install pip==20.2.3
-(datascience37)~/datascience$ pip install setuptools==50.3.0
-(datascience37)~/datascience$ pip install -r requirements.txt
+~/datascience$ python -m venv datascience38
+~/datascience$ source datascience38/bin/activate
+(datascience38)~/datascience$ pip install pip==20.2.4
+(datascience38)~/datascience$ pip install setuptools==51.0.0
+(datascience38)~/datascience$ pip install -r requirements.txt
 ```
 
 Command to configure virtual environment with [virtualenv]:
 
 ```bash
-~/datascience$ ~/datascience$ virtualenv datascience37
-~/datascience$ source datascience37/bin/activate
-(datascience37)~/datascience$ pip install pip==20.2.3
-(datascience37)~/datascience$ pip install setuptools==50.3.0
-(datascience37)~/datascience$ pip install -r requirements.txt
+~/datascience$ ~/datascience$ virtualenv datascience38
+~/datascience$ source datascience38/bin/activate
+(datascience38)~/datascience$ pip install pip==20.2.4
+(datascience38)~/datascience$ pip install setuptools==51.0.0
+(datascience38)~/datascience$ pip install -r requirements.txt
 ```
 
 ### HOW TO RUN NOTEBOOKS
@@ -51,7 +51,7 @@ Command to configure virtual environment with [virtualenv]:
 A good way to play with the [Jupyter Notebooks] is through [Jupyter Lab]. To run any of them use the command shown below:
 
 ```bash
-(datascience37)~/datascience$ jupyter lab <notebook_name>.ipynb
+(datascience38)~/datascience$ jupyter lab <notebook_name>.ipynb
 ```
 
 It could be required to be able to use libraries dependent on [Python] widgets in [Jupyter Lab] to execute the commands:
@@ -59,8 +59,8 @@ It could be required to be able to use libraries dependent on [Python] widgets i
 ```bash
 ~$ sudo apt install npm
 ~$ sudo apt install nodejs
-(datascience37)~$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
-(datascience37)~$ jupyter labextension install jupyter-leaflet
+(datascience38)~$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
+(datascience38)~$ jupyter labextension install jupyter-leaflet
 ```
 
 It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
@@ -91,9 +91,9 @@ copyright: 2018-2020
 [Keras]: https://keras.io/
 [TensorFlow]: https://www.tensorflow.org/
 [Matplotlib]: https://matplotlib.org/
-[NumPy]: http://www.numpy.org/
+[NumPy]: https://numpy.org/
 [Pandas]: https://pandas.pydata.org/
-[scikit-learn]: http://scikit-learn.org/stable/
+[scikit-learn]: https://scikit-learn.org/stable/
 [scikit-image]: https://scikit-image.org/
 [TPOT]: https://github.com/EpistasisLab/tpot
 [XGBoost]: https://github.com/dmlc/xgboost
@@ -104,10 +104,10 @@ copyright: 2018-2020
 [imbalanced-learn]: https://github.com/scikit-learn-contrib/imbalanced-learn
 [SMOTE (Synthetic Minority Over-sampling Technique)]: https://jair.org/index.php/jair/article/view/10302
 [joblib]: https://pypi.org/project/joblib/
-[Jupyter]: http://jupyter.org/
-[Jupyter Lab]: http://jupyter.org/
-[Jupyter Notebook]: http://jupyter.org/
-[Jupyter Notebooks]: http://jupyter.org/
+[Jupyter]: https://jupyter.org/
+[Jupyter Lab]: https://jupyter.org/
+[Jupyter Notebook]: https://jupyter.org/
+[Jupyter Notebooks]: https://jupyter.org/
 [findspark]: https://github.com/minrk/findspark
 [Spark]: https://spark.apache.org/
 [venv]: https://docs.python.org/3/library/venv.html
