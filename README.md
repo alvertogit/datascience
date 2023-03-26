@@ -14,7 +14,7 @@ The code has been tested using:
 * [NumPy] (1.24): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * [Pandas] (1.5):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (1.2): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
-* [scikit-image] (0.19.3): a collection of algorithms for image processing with [Python].
+* [scikit-image] (0.20): a collection of algorithms for image processing with [Python].
 * [TPOT] (0.11): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
 * [XGBoost] (1.7): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 * [Folium] (0.14): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
@@ -22,7 +22,7 @@ The code has been tested using:
 * [Seaborn] (0.12): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
 * [imbalanced-learn] (0.10): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
 * [joblib] (1.2): a set of tools to provide lightweight pipelining in [Python].
-* [findspark] (2.0.1): a package to make [Spark] Context available in [Jupyter Notebook].
+* [findspark] (2.0): a package to make [Spark] Context available in [Jupyter Notebook].
 
 Virtual environment (<env_name>=**datascience3**) can be generated with  **requirements.txt** file found in main folder.
 
@@ -31,8 +31,8 @@ Command to configure virtual environment with [venv]:
 ```bash
 ~/datascience$ python3 -m venv datascience3
 ~/datascience$ source datascience3/bin/activate
-(datascience3)~/datascience$ python3 -m pip install pip==23.0
-(datascience3)~/datascience$ python3 -m pip install setuptools==67.2.0
+(datascience3)~/datascience$ python3 -m pip install pip==23.0.1
+(datascience3)~/datascience$ python3 -m pip install setuptools==67.6.0
 (datascience3)~/datascience$ python3 -m pip install -r requirements.txt
 ```
 
