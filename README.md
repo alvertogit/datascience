@@ -10,13 +10,13 @@ The code has been tested using:
 * [Jupyter Lab] (4.0): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
 * [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
 * [TensorFlow] (2.13): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
-* [Matplotlib] (3.7): a plotting library for [Python] and its numerical mathematics extension [NumPy].
+* [Matplotlib] (3.8): a plotting library for [Python] and its numerical mathematics extension [NumPy].
 * [NumPy] (1.23): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-* [Pandas] (2.0):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
+* [Pandas] (2.1):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 * [scikit-learn] (1.3): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 * [scikit-image] (0.21): a collection of algorithms for image processing with [Python].
 * [TPOT] (0.12): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
-* [XGBoost] (1.7): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
+* [XGBoost] (2.0): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 * [Folium] (0.14): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 * [ipyleaflet] (0.17): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in [Jupyter Notebook].
 * [Seaborn] (0.12): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
@@ -32,7 +32,7 @@ Command to configure virtual environment with [venv]:
 ~/datascience$ python3 -m venv datascience3
 ~/datascience$ source datascience3/bin/activate
 (datascience3)~/datascience$ python3 -m pip install pip==23.2.1
-(datascience3)~/datascience$ python3 -m pip install setuptools==68.0.0
+(datascience3)~/datascience$ python3 -m pip install setuptools==68.2.2
 (datascience3)~/datascience$ python3 -m pip install -r requirements.txt
 ```
 
@@ -42,15 +42,6 @@ A good way to play with the [Jupyter Notebooks] is through [Jupyter Lab]. To run
 
 ```bash
 (datascience3)~/datascience$ jupyter lab <notebook_name>.ipynb
-```
-
-It could be required to be able to use libraries dependent on [Python] widgets in [Jupyter Lab] to execute the commands:
-
-```bash
-~$ sudo apt install npm
-~$ sudo apt install nodejs
-(datascience3)~$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
-(datascience3)~$ jupyter labextension install jupyter-leaflet
 ```
 
 It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
