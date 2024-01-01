@@ -31,8 +31,8 @@ Command to configure virtual environment with [venv]:
 ```bash
 ~/datascience$ python3 -m venv datascience3
 ~/datascience$ source datascience3/bin/activate
-(datascience3)~/datascience$ python3 -m pip install pip==23.3.1
-(datascience3)~/datascience$ python3 -m pip install setuptools==69.0.2
+(datascience3)~/datascience$ python3 -m pip install pip==23.3.2
+(datascience3)~/datascience$ python3 -m pip install setuptools==69.0.3
 (datascience3)~/datascience$ python3 -m pip install -r requirements.txt
 ```
 
@@ -57,7 +57,7 @@ Graph image example of a decision tree is shown below.
 ## CREDITS
 
 author: alvertogit
-copyright: 2018-2023
+copyright: 2018-2024
 
 [Data Science]: https://en.wikipedia.org/wiki/Data_science
 [Artificial Intelligence]: https://en.wikipedia.org/wiki/Artificial_intelligence
