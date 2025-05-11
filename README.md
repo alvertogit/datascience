@@ -21,7 +21,7 @@ The code has been tested using:
 - [ipyleaflet] (0.19): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in [Jupyter Notebook].
 - [Seaborn] (0.13): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
 - [imbalanced-learn] (0.13): a [Python] package offering a number of re-sampling techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn] and it allows [SMOTE (Synthetic Minority Over-sampling Technique)].
-- [joblib] (1.4): a set of tools to provide lightweight pipelining in [Python].
+- [joblib] (1.5): a set of tools to provide lightweight pipelining in [Python].
 - [findspark] (2.0): a package to make [Spark] Context available in [Jupyter Notebook].
 
 Virtual environment (<env_name>=**.venv**) can be generated with  **requirements.txt** file found in main folder.
@@ -31,8 +31,8 @@ Command to configure virtual environment with [venv]:
 ```bash
 ~/datascience$ python3 -m venv .venv
 ~/datascience$ source .venv/bin/activate
-(.venv)~/datascience$ python3 -m pip install pip==25.0.1
-(.venv)~/datascience$ python3 -m pip install setuptools==78.1.0
+(.venv)~/datascience$ python3 -m pip install pip==25.1.1
+(.venv)~/datascience$ python3 -m pip install setuptools==80.4.0
 (.venv)~/datascience$ python3 -m pip install -r requirements.txt
 (.venv)~/datascience$ pre-commit install
 ```
