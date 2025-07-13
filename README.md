@@ -15,7 +15,7 @@ The code has been tested using:
 - [Pandas] (2.3):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
 - [scikit-learn] (1.6): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 - [scikit-image] (0.25): a collection of algorithms for image processing with [Python].
-- [TPOT] (0.12): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
+- [TPOT] (1.1): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
 - [XGBoost] (3.0): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 - [Folium] (0.20): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 - [ipyleaflet] (0.20): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in [Jupyter Notebook].
@@ -42,7 +42,7 @@ Command to configure virtual environment with [venv]:
 A good way to play with the [Jupyter Notebooks] is through [Jupyter Lab]. To run any of them use the command shown below:
 
 ```bash
-(.venv)~/datascience$ jupyter lab <notebook_name>.ipynb
+(.venv)~/datascience$ jupyter lab <notebook_name>.ipynb --ContentsManager.allow_hidden=True
 ```
 
 It might be also necessary to install locally [Graphviz] for rendering graph images with the command:
