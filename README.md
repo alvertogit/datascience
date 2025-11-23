@@ -7,7 +7,7 @@ This repository stores [Jupyter Notebooks] to demonstrate skills in [Data Scienc
 The code has been tested using:
 
 - [Python] (3.12): an interpreted high-level programming language for general-purpose programming.
-- [Jupyter Lab] (4.4): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
+- [Jupyter Lab] (4.5): a web-based interactive development environment for [Jupyter Notebooks], code, and data.
 - [Keras] ([TensorFlow] built-in): a high-level neural networks [API], written in [Python] and capable of running on top of [TensorFlow], CNTK, or Theano.
 - [TensorFlow] (2.20): an open source [Deep Learning] library for high performance numerical computation using data flow graphs.
 - [Matplotlib] (3.10): a plotting library for [Python] and its numerical mathematics extension [NumPy].
