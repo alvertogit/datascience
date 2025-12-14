@@ -13,7 +13,7 @@ The code has been tested using:
 - [Matplotlib] (3.10): a plotting library for [Python] and its numerical mathematics extension [NumPy].
 - [NumPy] (2.3): a library for [Python], adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 - [Pandas] (2.3):  an open source library providing high-performance, easy-to-use data structures and data analysis tools for [Python].
-- [scikit-learn] (1.7): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
+- [scikit-learn] (1.8): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 - [scikit-image] (0.25): a collection of algorithms for image processing with [Python].
 - [TPOT] (1.1): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
 - [XGBoost] (3.1): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
