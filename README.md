@@ -16,7 +16,7 @@ The code has been tested using:
 - [scikit-learn] (1.8): a [machine learning] library for [Python]. It features various classification, regression and clustering algorithms including support vector machines, [random forest], [gradient boosting], k-means and DBSCAN.
 - [scikit-image] (0.26): a collection of algorithms for image processing with [Python].
 - [TPOT] (1.1): a [Python] Automated [Machine Learning] tool that optimizes [machine learning] pipelines using genetic programming.
-- [XGBoost] (3.1): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
+- [XGBoost] (3.2): an optimized distributed [gradient boosting] library designed to be highly efficient, flexible and portable.
 - [Folium] (0.20): an open source library to visualize data that has been manipulated in [Python] on an interactive [Leaflet.js] map.
 - [ipyleaflet] (0.20): a [Jupyter] / [Leaflet.js] bridge enabling interactive maps in [Jupyter Notebook].
 - [Seaborn] (0.13): a [Python] visualization library based on [Matplotlib]. It provides a high-level interface for drawing attractive statistical graphics.
@@ -32,7 +32,7 @@ Command to configure virtual environment with [venv]:
 ~/datascience$ python3 -m venv .venv
 ~/datascience$ source .venv/bin/activate
 (.venv)~/datascience$ python3 -m pip install pip==26.0.1
-(.venv)~/datascience$ python3 -m pip install setuptools==81.0.0
+(.venv)~/datascience$ python3 -m pip install setuptools==82.0.0
 (.venv)~/datascience$ python3 -m pip install -r requirements.txt
 (.venv)~/datascience$ pre-commit install
 ```
