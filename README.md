@@ -31,7 +31,7 @@ Command to configure virtual environment with [venv]:
 ```bash
 ~/datascience$ python3 -m venv .venv
 ~/datascience$ source .venv/bin/activate
-(.venv)~/datascience$ python3 -m pip install pip==26.0.1
+(.venv)~/datascience$ python3 -m pip install pip==26.1.1
 (.venv)~/datascience$ python3 -m pip install setuptools==82.0.1
 (.venv)~/datascience$ python3 -m pip install -r requirements.txt
 (.venv)~/datascience$ pre-commit install
